@@ -10,7 +10,7 @@
   "camera": {
     "index": 1,
     "frame_width": 640,
-    "frame_height": 480
+    "frame_height": 500
   },
   "ball_detection": {
     "lower_hsv": [

@@ -15,7 +15,6 @@ try:
 except FileNotFoundError:
     raise FileNotFoundError(f"Configuration file not found at {CONFIG_PATH}")  
 
-
 # Extract parameters
 platform_type = cfg.get("platform_type", "circular")
 assert platform_type == "circular", "This demo assumes a circular platform."
@@ -147,7 +146,7 @@ font = pygame.font.SysFont("Arial", 16)
 slider_width = cam_w - 40
 slider_height = 10
 ui_panel_height = 100          
-base_y = cam_h
+base_y = cam_h 
 spacing = 20  
 
 kp_slider = Slider(
